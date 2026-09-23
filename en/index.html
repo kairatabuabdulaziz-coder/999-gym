@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — 999 GYM</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1c1e; --muted: #5f6368; --accent: #b8860b;
+    --line: #e3e5e8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16181a; --fg: #e6e8ea; --muted: #9aa0a6; --accent: #d4a933;
+      --line: #2a2d30;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    padding: 32px 20px 64px;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  .date { color: var(--muted); font-size: 14px; margin-bottom: 36px; }
+  h2 {
+    font-size: 18px; margin: 34px 0 10px; padding-top: 20px;
+    border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  ul { padding-left: 20px; margin: 0; }
+  li { margin-bottom: 10px; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy</h1>
+<div class="date">999 GYM app · version of 27 августа 2026</div>
+<h2>Short</h2>
+<ul>
+    <li>The app stores your workouts to show progress, and gives your coach exactly what you've allowed. Data isn't sold, there are no ads, and you're not tracked.</li>
+    <li>Three things worth knowing before you start: workouts are stored in Google Firebase's cloud; for the review, de-identified numbers are sent to Google Gemini; a coach only sees what you've consented to, and consent can be revoked with one tap.</li>
+</ul>
+<h2>Who's responsible for the app</h2>
+<ul>
+    <li>The app is made by a private individual — Kairat Utenyazov, Kazakhstan. It is not a company or a service with a support department. For any question about your data, write to kairat.abu.abdulaziz@gmail.com.</li>
+</ul>
+<h2>What the app saves</h2>
+<ul>
+    <li>Account: the email address and name you provided at sign-in. The app doesn't know your password — Google handles sign-in.</li>
+    <li>Profile: sex, age, height, weight, training goal, experience, work schedule, injuries and limits, if you entered them.</li>
+    <li>Workouts: exercises, sets, weight, reps, the start and end time of each set, and notes you've written.</li>
+    <li>Body measurements and weight by date — the ones you enter yourself.</li>
+    <li>Heart rate for the workout, if you tapped “Pull heart rate from the watch”. It's not stored as a row of measurements but as a computed summary: the range for the workout and by set.</li>
+    <li>You can start without registering — as a guest. The account is then created without an email address, and you can restore the data on another phone only if you link Google to it in settings.</li>
+    <li>If you are a coach: records of client payments (amount, currency, method, period or session package), marks of completed sessions and payment settings — currency, methods, payment link and note. The app itself does not accept or process money.</li>
+</ul>
+<h2>What stays only on your phone</h2>
+<ul>
+    <li>Progress photos. They're never uploaded to the cloud at all — only the file path on the phone's storage is saved. Delete the app or the photo, and it's gone everywhere.</li>
+    <li>The app's crash log. It's never sent anywhere and stays on the phone: the app will show it itself on the next crash.</li>
+    <li>Your own end-of-rest sound, settings, theme.</li>
+</ul>
+<h2>Where the data is stored</h2>
+<ul>
+    <li>In Google Firebase's cloud (Firestore) — the same platform that runs Google sign-in. The server is chosen by Google and is located outside Kazakhstan.</li>
+    <li>A copy sits on your phone so the app works at the gym without a connection. It's not a backup: lose your phone and the data stays in the cloud; delete it from the cloud and it disappears everywhere.</li>
+</ul>
+<h2>What goes to the AI</h2>
+<ul>
+    <li>Google Gemini handles the workout review and exercise selection. Only what's needed for advice is sent there: goal, experience, age, height, weight, schedule, injuries if entered, priority muscle groups, a weeks-long load summary, estimated body composition and strength, plus the numbers of the workout being reviewed — weight lifted, number of sets, volume change, heart rate.</li>
+    <li>Your name, email, and any identifying details never go into the request: the model gets numbers, not a person.</li>
+    <li>If there's no network, the limit is used up, or the model doesn't respond, the review still appears — the app's own rules compute it. Not a single number depends on the model: it only puts into words what arithmetic has already calculated.</li>
+    <li>How Google handles data sent to Gemini is described in its own terms. The app can't cancel or change them.</li>
+</ul>
+<h2>What the coach sees</h2>
+<ul>
+    <li>A coach only appears once you've entered their code yourself. Until then, no one but you sees your data.</li>
+    <li>Once linked, the coach can see: goal, experience, age, height, and sex — a program can't be built without them; the programs they gave you, and their completion marks.</li>
+    <li>Separate consent is required for: weight and its trend, body measurements, and workout history outside their programs. Each consent is given and revoked separately with one tap, and the app honestly shows the coach that the data is closed, rather than hiding it silently.</li>
+    <li>Personal notes on a workout are never visible to the coach.</li>
+    <li>A client sees their own payments to the coach — “paid until”, sessions left in the package — and their coach's payment settings with the link. Other clients' payments and the coach's income are not visible to them.</li>
+    <li>Revoked consent closes access immediately — enforced by server-side rules, not just by the app's screen.</li>
+</ul>
+<h2>What the app doesn't do</h2>
+<ul>
+    <li>Shows no ads and doesn't share data with ad networks.</li>
+    <li>Doesn't collect behavior analytics: the app has no counters or screen-tracking systems.</li>
+    <li>Doesn't sell or share data with third parties — except the two Google services named above, without which the app doesn't work.</li>
+    <li>Doesn't ask for permissions it doesn't use. The microphone was removed on 27.08.2026 along with the canceled voice input; from health data, only heart rate is requested.</li>
+</ul>
+<h2>How long data is kept and how to delete it</h2>
+<ul>
+    <li>Data is stored for as long as your account exists.</li>
+    <li>You can export your workout history as a file any time: Profile → gear icon → “Export workout history”. The export is yours — take it wherever you want.</li>
+    <li>You can delete everything yourself, right away: “About the app” → “Delete account”. Your profile, all history, programs, measurements, and the sign-in itself are gone — afterward, neither you nor the developer can restore it. Export your history to a file before deleting — it's yours.</li>
+    <li>If something did not work — write to kairat.abu.abdulaziz@gmail.com.</li>
+    <li>Deleting the app from your phone doesn't erase the data in the cloud.</li>
+</ul>
+<h2>Kids</h2>
+<ul>
+    <li>The app isn't intended or designed for children under 16: strength training for teens should be guided by an in-person coach, not an algorithm.</li>
+</ul>
+<h2>Health — an important caveat</h2>
+<ul>
+    <li>The app isn't a doctor. The review, strength ceiling, body composition estimate, and the model's advice are all arithmetic on your own numbers — not a medical opinion. Pain, injury, medication, pregnancy, heart conditions — that's a question for a doctor, not the app.</li>
+</ul>
+<h2>Policy changes</h2>
+<ul>
+    <li>If the data we collect changes, this text will change too, and the date at the top will be updated. Rewriting the policy retroactively while keeping the old date is a trick that won't be used here.</li>
+</ul>
+<footer>
+  Questions about your data — <a href="mailto:kairat.abu.abdulaziz@gmail.com">kairat.abu.abdulaziz@gmail.com</a>.<br>
+  This page is built from the same text the app itself shows.
+</footer>
+</main>
+</body>
+</html>
